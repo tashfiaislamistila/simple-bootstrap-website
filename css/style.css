@@ -14,10 +14,11 @@ background-image: linear-gradient(90deg, #2937f0, #9f1ae2);
 
 }
 .banner{
-    height:calc(100vh - 80px);
+   min-height:calc(100vh - 80px);
 }
 .new-web-design{
     height: 100vh;
+    /* min-height: 500px; */
 }
 .stop-writing{
     background-image: url(../img/background.png);
